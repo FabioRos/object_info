@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+   > _user_ = User.first
+   > oi _user_
+```
+
+It produces a list of Methods, attributes, relations and callbacks related to the passed object or resource.
+If you specify true as second parameter, the output will also include attributes and methods of ActiveRecord::Base and Object.
+
+```ruby
+   > _user_ = User.first
+   > oi _user_, true
+```
 
 ## Development
 
@@ -32,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/object_info. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/FabioRos/object_info. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

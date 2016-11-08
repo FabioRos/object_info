@@ -7,6 +7,11 @@ def oi  (_object_, all_methods =false)
   ObjectInfo.analyze(_object_, all_methods)
 end
 
+#MACRO DEFINITION
+def owl  (_object_, all_methods =false)
+  ObjectInfo.analyze(_object_, all_methods)
+end
+
 #CORE
 module ObjectInfo
   # Your code goes here...
@@ -45,7 +50,6 @@ module ObjectInfo
         puts ("        #{save_callback.kind.to_s} #{save_callback.name.to_s}".blue + " >>> " +"#{save_callback.filter.to_s}".yellow)
       end rescue ''
     end
-
 
 
    # _create_callbacks

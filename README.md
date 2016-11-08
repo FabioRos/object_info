@@ -1,8 +1,9 @@
 # ObjectInfo
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/object_info`. To experiment with that code, run `bin/console` for an interactive prompt.
+Thinked for development use.
+It produces a list of Methods, attributes, relations and callbacks related to the passed resource.
+You can invoke it with ```oi``` or  ```owl``` ( because an owl sees things through the dark ).
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -35,6 +36,8 @@ If you specify true as second parameter, the output will also include attributes
    > oi _user_, true
 ```
 
+
+You can also use ```owl``` instead of  ```oi```, because an owl sees things hide in the dark.
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

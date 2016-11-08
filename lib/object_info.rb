@@ -1,11 +1,19 @@
 require "object_info/version"
 require "awesome_print"
+
+
+#MACRO DEFINITION
+def oi  (_object_, all_methods =false)
+  ObjectInfo.analyze(_object_, all_methods)
+end
+
+#CORE
 module ObjectInfo
   # Your code goes here...
 
   #TODO add dependency to colorize and use it„
 
-  def self.analize (_object_, all_methods =false)
+  def self.analyze (_object_, all_methods =false)
 
     options_val = _object_.is_a?(ActiveRecord::Base) ? {} : {raw: true}
 

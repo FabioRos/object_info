@@ -1,6 +1,6 @@
 # ObjectInfo
 
-Thinked for development use.
+Thought for development use.
 It produces a list of Methods, attributes, relations and callbacks related to the passed resource.
 You can invoke it with ```oi``` or  ```owl``` ( because an owl sees things through the dark ).
 

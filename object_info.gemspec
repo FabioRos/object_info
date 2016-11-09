@@ -9,8 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Fabio Ros"]
   spec.email         = ["fabio@ros90@gmail.com"]
 
-  spec.summary       = %q{This gem give some informations about an object's context.}
-  spec.description   = %q{This gem give some informations about an object's context.}
+  spec.summary       = %q{This gem gives some informations about an object's context.}
+  spec.description   = %q{Thinked for development use.
+It produces a list of Methods, attributes, relations and callbacks related to the passed resource.
+You can invoke it with ```oi``` or  ```owl``` ( because an owl sees things through the dark ).}
   spec.homepage      = "https://github.com/FabioRos/object_info"
   spec.license       = "MIT"
 
